@@ -24,7 +24,7 @@
 <div class="container mt-4">
     <div class="row justify-content-center">
         <div class="col-md-10">
-            <img src="{{ url($item->image_banner) }}" alt="Kita kerjakan" class="img-fluid rounded">
+            <img src="{{ url($item->image_banner) }}" alt="Kita kerjakan" class="img-fluid rounded w-100">
             <h4 class="mt-4">{{ $item->nama_layanan }}</h4>
             <div class="my-4">
                 {!! $item->deskripsi !!}
