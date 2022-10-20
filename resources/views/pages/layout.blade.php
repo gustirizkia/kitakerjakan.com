@@ -18,7 +18,7 @@
     @yield('content')
 
     <footer>
-        <div class="container">
+        {{-- <div class="container">
             <div class="row justify-content-between align-items-center">
                 <div class="col-md-6">
                     <img src="/assets/images/logo.jpg" alt="" />
@@ -31,6 +31,11 @@
                     Tangerang Selatan, Banten 15419
                 </div>
             </div>
+        </div> --}}
+        {{--
+        <hr> --}}
+        <div class="py-3 text-center bg__primary text-white mt-5">
+            &copy COPYRIGHT {{ \Carbon\Carbon::now()->format('Y') }}
         </div>
     </footer>
 
