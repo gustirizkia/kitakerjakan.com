@@ -50,6 +50,9 @@ class LpController extends Controller
 
     public function detailArtikel(Request $request, $slug){
         $data = Artikel::with('kategori')->where('slug', $slug)->first();
+        if(!$data){
+            return abort(404);
+        }
 
         $artikel = Artikel::orderBy('id', 'desc')->where('id', '!=', $data->id)->limit(10)->get();
 
