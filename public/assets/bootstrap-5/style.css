@@ -1,0 +1,145 @@
+* {
+    font-family: "Poppins", sans-serif;
+}
+nav img {
+    width: 50px;
+    border-radius: 10%;
+}
+.main {
+    padding-top: 86px;
+    top: 0px;
+}
+
+.bg__primary {
+    background-color: #0b1a59;
+}
+.nav-item {
+    margin-left: 20px;
+}
+.navbar-nav .nav-link.active,
+.navbar-nav .show > .nav-link {
+    color: #e0b108;
+    /* font-weight: bold; */
+    text-decoration: underline;
+}
+.nav-link {
+    color: white;
+}
+
+.hero p {
+    color: rgb(204, 204, 204);
+}
+
+.hero span {
+    color: #e0b108;
+}
+
+.hero img {
+    border-radius: 20px;
+}
+.layanan img {
+    border-radius: 14px;
+    margin-bottom: 10px;
+    height: 100px;
+    object-fit: cover;
+    width: 100%;
+    object-position: center;
+}
+.layanan a {
+    text-decoration: unset;
+    color: black;
+    position: relative;
+}
+.bg-pmii {
+    background: #e0b108 !important;
+}
+
+.shape {
+    bottom: -4px;
+    top: -10px;
+}
+
+.cara-kerja .card {
+    border: unset;
+}
+
+.cara-kerja img {
+    width: 100%;
+    height: 80px;
+    object-fit: contain;
+    margin-bottom: 16px;
+}
+
+.shape__1 {
+    /* right: 0;
+  top: 0; */
+}
+.shape__1 svg {
+    height: 300px;
+    object-fit: contain;
+}
+
+.client-kami {
+    background-image: url("https://images.unsplash.com/39/lIZrwvbeRuuzqOoWJUEn_Photoaday_CSD%20(1%20of%201)-5.jpg?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    color: white;
+}
+
+.client-kami .card {
+    font-weight: 600;
+    cursor: pointer;
+    background-color: #00000051;
+    margin-left: 10px;
+    font-size: 12px;
+}
+.client-kami .card:hover {
+    background-color: #0b1a59;
+}
+
+.main-kontak {
+    /* padding-bottom: 40px; */
+
+    background: #0b1a59;
+}
+
+.main-kontak label {
+    font-weight: 500;
+    color: #292929;
+    margin-bottom: 8px;
+    margin-top: 14px;
+}
+
+.main-kontak iframe {
+    margin-top: 14px;
+}
+
+footer {
+    position: relative;
+    background-color: white;
+}
+
+footer img {
+    width: 120px;
+}
+
+@media (min-width: 1200px) {
+    .hero .h1,
+    .hero h1 {
+        font-size: 3.5rem;
+    }
+
+    .main-kontak iframe {
+        margin-top: 0;
+    }
+
+    /* .main {
+    top: -138px;
+  } */
+
+    .layanan {
+        margin-top: 240px;
+    }
+
+    .shape {
+        top: -10px;
+    }
+}

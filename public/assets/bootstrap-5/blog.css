@@ -1,0 +1,80 @@
+.main__blog {
+    min-height: 100vh;
+}
+
+.card__blog a {
+    text-decoration: unset;
+    color: unset;
+}
+.card__blog {
+    border: unset;
+    border-radius: 6px;
+}
+
+.card__blog img {
+    height: 160px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 6px 6px 0px 0px;
+}
+
+.card__blog .title {
+    font-weight: bold;
+    display: inline-block;
+    /* border: black 1px solid; */
+    height: 50px;
+    overflow: hidden;
+}
+
+.card__blog .deskripsi__singkat {
+    color: #292929;
+    font-size: 14px;
+}
+
+.card__blog .date {
+    color: rgb(100, 100, 100);
+    font-size: 12px;
+}
+
+.card__blog .badge {
+    font-weight: 400;
+    border-radius: 2px;
+}
+
+.deskripsi img {
+    width: 100%;
+    height: auto;
+}
+
+.title__detail {
+    font-weight: bold;
+    font-size: 26px;
+    columns: #292929;
+}
+
+.date {
+    color: #555555;
+}
+
+.rekomendasi a {
+    text-decoration: unset;
+    color: #292929;
+}
+
+.rekomendasi img {
+    border-radius: 6px;
+    object-fit: cover;
+
+    height: 70px;
+    width: 100%;
+
+    margin-right: 10px;
+}
+
+.rekomendasi .title {
+    font-weight: bold;
+}
+
+.rekomendasi .date {
+    font-size: 12px;
+}
