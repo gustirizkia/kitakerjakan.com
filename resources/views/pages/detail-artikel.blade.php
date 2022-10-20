@@ -12,7 +12,7 @@
 <meta property="og:site_name" content="Kita Kerjakan">
 <meta property="og:title" content="{{ $item->judul }}" />
 <meta property="og:description" content="{{ $item->deskripsi_singkat }}" />
-<meta property="og:image" itemprop="image" content="{{ asset('assets/images/logo.jpg') }}">
+<meta property="og:image" itemprop="image" content="{{ url($item->image) }}">
 <meta property="og:type" content="website" />
 <meta property="og:image:width" content="300">
 <meta property="og:image:height" content="300">

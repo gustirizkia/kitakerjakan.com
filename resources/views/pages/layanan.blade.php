@@ -13,7 +13,7 @@
 <meta property="og:title" content="Kita Kerjakan" />
 <meta property="og:description"
     content="KITAKERJAKAN.COM adalah perusahaan yang bergerak dibidang jasa Perpajakan, Keuangan & Legalitas badan usaha. Sejak 2021, KITAKERJAKAN.COM telah membantu lebih dari 500 perusahaan untuk mengurusi perpajakan, keuangan atau pendirian badan usahanya di Indonesia." />
-<meta property="og:image" itemprop="image" content="{{ asset('assets/images/logo.jpg') }}">
+<meta property="og:image" itemprop="image" content="{{ url($item->thumbnail) }}">
 <meta property="og:type" content="website" />
 <meta property="og:image:width" content="300">
 <meta property="og:image:height" content="300">
